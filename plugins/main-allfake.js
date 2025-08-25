@@ -33,9 +33,9 @@ handler.all = async function (m) {
   //let pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegra.ph/file/327f6ad853cb4f405aa80.jpg')
 
   //CREADOR Y OTROS
-  global.creador = 'Wa.me/5491136861351'
+  global.creador = 'Wa.me/51922346462'
   global.botreal = `${(conn.user.jid == global.conn.user.jid ? '*Bot:* Oficial' : `*SubBot de: ${conn.user.jid.split('@')[0]}*`)}`
-  global.asistencia = 'Wa.me/5491136861351'
+  global.asistencia = 'Wa.me/51922346462'
 
   //REACCIONES 
   global.rwait = '🕒'
@@ -57,9 +57,9 @@ handler.all = async function (m) {
   global.mistake = '*✖️ Error en el comando*\n*Por favor, intenta nuevamente más tarde. Si esto persiste envia:*\n> #report El comando (comando) no funciona.';
 
   //ENLACES
-  var group = 'https://chat.whatsapp.com/LOXfLTwW0Sh5k8RTFhkclY'
+  var group = 'https://chat.whatsapp.com/FZWCddvgOuU9DYEMSqgzCp'
   var web = 'https://shadow-bot.vercel.app/'
-  let instagram = 'https://www.instagram.com/@Tigreshoy.ff'
+  let instagram = 'https://www.instagram.com/𝑩𝒐𝒕𝑨𝒑𝒐𝒍𝒐'
 
   global.redes = [group, web, instagram].getRandom()
 
@@ -121,7 +121,7 @@ handler.all = async function (m) {
   var more = String.fromCharCode(8206)
   global.readMore = more.repeat(850)
 
-  global.packN = `@MISHIBOT\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
+  global.packN = `@ApoloBot\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
   global.authN = `\n↳ @${usname}`;
 
   //FAKES
@@ -129,25 +129,25 @@ handler.all = async function (m) {
 
   global.idchannel = '122315454515465454@newsletter'
   global.canalIdM = ["122315454515465454@newsletter", "122315454515465454@newsletter", "122315454515465454@newsletter"]
-  global.canalNombreM = ["@MISHIBOT", "@MISHIBOT", "@MISHIBOT"]
+  global.canalNombreM = ["@ApoloBot", "@ApoloBot", "@ApoloBot"]
   global.channelRD = await getRandomChannel()
 
   global.icono = [
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
-    "https://files.catbox.moe/ii137x.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
+    "https://files.catbox.moe/9zmcwi.jpeg",
   ].getRandom()
 
   global.urls = [
