@@ -71,7 +71,7 @@ Xiaohongshu(RedNote) Video/Photo Downloader\`\`\``);
     if (!keni.result || !result.downloadUrls) {
       return m.reply("[✧] No se pudo descargar el contenido de TikTok");
     }
-    const caption = `*💎 ApoloBot VIDEO DOWNLOADER 💎*
+    const caption = `*💎 SKYBOT VIDEO DOWNLOADER 💎*
 
   ✧ : \`titulo;\` ${title || 'no encontrado'}
   ✧ : \`plataforma;\` ${source || 'no encontrado'}

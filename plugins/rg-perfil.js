@@ -6,7 +6,7 @@ import fetch from 'node-fetch'
 const fkontak2 = {
   key: { participant: '0@s.whatsapp.net' },
   message: {
-    contactMessage: { displayName: ' ApoloBot', vcard: '' }
+    contactMessage: { displayName: ' SKYBOT', vcard: '' }
   }
 }
 
@@ -66,7 +66,7 @@ const handler = async (m, { conn }) => {
     contextInfo: {
       mentionedJid: [userId],
       externalAdReply: {
-        title: '@ApoloBot',
+        title: '@SKYBOT',
         body: club,
         thumbnailUrl: perfilUrl,
         mediaType: 1,

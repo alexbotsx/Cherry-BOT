@@ -8,10 +8,10 @@ export async function all(m) {
         await this.reply(m.chat, `*📖 Tiempo de Uso Expirado*
 
 *El tiempo del bot ah finalizado. Para renovarlo y seguir disfrutando de sus funciones, contacta con mi creador:*
-Wa.me/51922346462
+Wa.me/56971943258
 
 *O también puedes unirte al grupo oficial donde podrás disfrutar del bot sin límites.*
-https://chat.whatsapp.com/FZWCddvgOuU9DYEMSqgzCp`)
+https://chat.whatsapp.com/DzofS7SygPAJeA2ysYv2zV`)
         await this.groupLeave(m.chat)
         chats.expired = null
     }

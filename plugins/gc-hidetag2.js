@@ -24,7 +24,7 @@ const handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
     const more = String.fromCharCode(8206);
     const masss = more.repeat(850);
 
-    const htextos = `${text ? text : '*¡Hola! 😸*'}\n\n> BʏApoloBot`;
+    const htextos = `${text ? text : '*¡Hola! 😸*'}\n\n> BʏSKYBOT`;
 
     //const htextos = `${text ? text : '*Utiliza nuevamente el comando. 😸*'}\n\n> © 𝑺𝒉𝒂𝒅𝒐𝒘 𝑼𝒍𝒕𝒓𝒂 | | ${date}`;
     if ((isMedia && quoted.mtype === 'imageMessage') && htextos) {
@@ -42,7 +42,7 @@ const handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
       var mediax = await quoted.download?.();
       conn.sendMessage(m.chat, { sticker: mediax, mentions: users }, { quoted: fkontak2 });
     } else {
-      await conn.relayMessage(m.chat, { extendedTextMessage: { text: `${masss}\n${htextos}\n`, ...{ contextInfo: { mentionedJid: users, externalAdReply: { thumbnail: img, sourceUrl: 'https://chat.whatsapp.com/FZWCddvgOuU9DYEMSqgzCp' } } } } }, {});
+      await conn.relayMessage(m.chat, { extendedTextMessage: { text: `${masss}\n${htextos}\n`, ...{ contextInfo: { mentionedJid: users, externalAdReply: { thumbnail: img, sourceUrl: 'https://chat.whatsapp.com/DzofS7SygPAJeA2ysYv2zV' } } } } }, {});
     }
   }
 };

@@ -1,5 +1,5 @@
 {
-    "name": "ApoloBot",
+    "name": "SKYBOT",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/ApoloBot",
+    "homepage": "https://github.com/KillzN/SKYBOT",
     "author": {
-        "name": "ApoloBot"
+        "name": "SKYBOT"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/ApoloBot"
+        "url": "git+https://github.com/KillzN/SKYBOT"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/ApoloBot/issues"
+        "url": "https://github.com/KillzN/SKYBOT/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

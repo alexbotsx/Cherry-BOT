@@ -1,21 +1,54 @@
-let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, command }) => {
+const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) => {
+  let chat = global.db.data.chats[m.chat];
+
   if (!(isAdmin || isOwner)) {
-  global.dfail('admin', m, conn)
-  throw false
+    global.dfail('admin', m, conn);
+    throw false;
   }
-  let pesan = args.join` `
-  let oi = `𝑩𝒐𝒕𝑨𝒑𝒐𝒍𝒐${pesan}`
-  let teks = `𝑨𝑪𝑻𝑰𝑽𝑬𝑵𝑺𝑬⭐
-https://chat.whatsapp.com/FZWCddvgOuU9DYEMSqgzCp´
-${oi}\n\n ── 𝑬𝑻𝑰𝑸𝑼𝑬𝑻𝑨\n`
-  for (let mem of participants) {
-  teks += `▌@${mem.id.split('@')[0]}\n`}
-  teks += `└𝑩𝒐𝒕𝑨𝒑𝒐𝒍𝒐`
-  conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
+
+  const emoji = global.db.data.chats[m.chat]?.emojiTag || '💨';
+  const countryFlags = {
+    '52': '🇲🇽', '57': '🇨🇴', '54': '🇦🇷', '34': '🇪🇸', '55': '🇧🇷',
+    '1': '🇺🇸', '44': '🇬🇧', '91': '🇮🇳', '502': '🇬🇹', '56': '🇨🇱',
+    '51': '🇵🇪', '58': '🇻🇪', '505': '🇳🇮', '593': '🇪🇨', '504': '🇭🇳',
+    '591': '🇧🇴', '53': '🇨🇺', '503': '🇸🇻', '507': '🇵🇦', '595': '🇵🇾'
+  };
+
+    const getCountryFlag = (id) => {
+    const phoneNumber = id.split('@')[0];
+    const prefixes = [3, 2, 1];
+
+    for (const length of prefixes) {
+      const phonePrefix = phoneNumber.slice(0, length);
+      if (countryFlags[phonePrefix]) return countryFlags[phonePrefix];
+    }
+
+    return '💨';
+  };
+
+  const pesan = args.join` `;
+  const groupMetadata = await conn.groupMetadata(m.chat);
+  const groupName = groupMetadata.subject;
+  let teks = `*${groupName}*\n\nhttps://chat.whatsapp.com/HhZUtxp2KRTD5rD5j09VCy\n`;
+  teks += `𝙈𝙞𝙚𝙢𝙗𝙧𝙤𝙨: *${participants.length}*\n`;
+  teks += `${pesan}\n┌━━━━━━━━━━━━━━━━━━━━⭓ 𝙇𝙞𝙨𝙩𝙖\n`;
+
+  for (const mem of participants) {
+    const flagOrEmoji = emoji === '💨' ? getCountryFlag(mem.id) : emoji;
+    teks += `${flagOrEmoji} @${mem.id.split('@')[0]}\n`;
   }
-  handler.help = ['tagall <mesaje>','invocar <mesaje>']
-  handler.tags = ['group']
-  handler.command = /^(tagall|invocar|invocacion|todos|invocación|aviso|despierten|sia)$/i
-  handler.admin = true
-  handler.group = true
-  export default handler
+
+  teks += `└━━━━━━━━━━━━━━━━━━━━⭓\n\n> 𝑺𝒌𝒚𝑩𝒐𝒕`;
+  await conn.sendMessage(m.chat, { 
+    text: teks,
+    mentions: participants.map((a) => a.id)
+  });
+};
+
+handler.help = ['tagall', 'todos'];
+handler.tags = ['group'];
+handler.command = /^(tagall|invocar|todos|invocación)$/i;
+handler.admin = true;
+handler.group = true;
+
+export default handler;

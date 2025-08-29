@@ -9,33 +9,33 @@ import moment from 'moment-timezone'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.botNumber = '' //Ejemplo: 51922346462
+global.botNumber = '' //Ejemplo: 56971943258
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['51922346462', 'ApoloBot', true]
+  ['56971943258', 'SKYBOT', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.mods = []
-global.suittag = ['51922346462']
+global.suittag = ['56971943258']
 global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.namebot = 'ApoloBot'
-global.packname = 'ApoloBot'
-global.botname = 'ApoloBot'
-global.wm = 'ApoloBot'
-global.author = 'ApoloBot'
-global.dev = 'ApoloBot'
-global.club = 'ApoloBot'
-global.textbot = 'ApoloBot'
-global.etiqueta = 'ApoloBot'
+global.namebot = 'SKYBOT'
+global.packname = 'SKYBOT'
+global.botname = 'SKYBOT'
+global.wm = 'SKYBOT'
+global.author = 'SKYBOT'
+global.dev = 'SKYBOT'
+global.club = 'SKYBOT'
+global.textbot = 'SKYBOT'
+global.etiqueta = 'SKYBOT'
 global.jadi = 'JadiBots'
-global.sessions = 'ApoloBot'
+global.sessions = 'SKYBOT'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
@@ -65,16 +65,16 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/KillzN/ApoloBot'
-global.grupo = 'https://chat.whatsapp.com/FZWCddvgOuU9DYEMSqgzCp'
-global.comu = 'https://chat.whatsapp.com/FZWCddvgOuU9DYEMSqgzCp'
+global.github = 'https://github.com/KillzN/SKYBOT'
+global.grupo = 'https://chat.whatsapp.com/DzofS7SygPAJeA2ysYv2zV'
+global.comu = 'https://chat.whatsapp.com/DzofS7SygPAJeA2ysYv2zV'
 global.channel = 'https://www.whatsapp.com/channel/987898789778asd'
-global.ig = 'https://www.instagram.com/𝑩𝒐𝒕𝑨𝒑𝒐𝒍𝒐'
+global.ig = 'https://www.instagram.com/usd.valuu_'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
-global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51922346462-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'ApoloBot', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
+global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "56971943258-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'SKYBOT', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
 global.multiplier = 70
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
