@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 > ${dev}`
 
-   let img = 'https://files.catbox.moe/6j2znh.jpg';
+   let img = 'https://files.catbox.moe/dg5c3p.jpeg';
 
    conn.sendMessage(m.chat, { image: { url: img }, caption: grupos }, { quoted: fkontak });
 }

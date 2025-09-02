@@ -1,5 +1,5 @@
 {
-    "name": "SKYBOT",
+    "name": "CHERRYBOT",
     "version": "3.0.0",
     "description": "WhatsApp Bot Multi Device",
     "main": "main.js",
@@ -18,16 +18,16 @@
         "eslint": "eslint .",
         "eslintfix": "eslint --fix ."
     },
-    "homepage": "https://github.com/KillzN/SKYBOT",
+    "homepage": "https://github.com/KillzN/CHERRYBOT",
     "author": {
-        "name": "SKYBOT"
+        "name": "CHERRYBOT"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/KillzN/SKYBOT"
+        "url": "git+https://github.com/KillzN/CHERRYBOT"
     },
     "bugs": {
-        "url": "https://github.com/KillzN/SKYBOT/issues"
+        "url": "https://github.com/KillzN/CHERRYBOT/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {

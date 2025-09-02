@@ -10,9 +10,9 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     // VCARD
     let list = [{
-        displayName: "SKYBOT",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: SKYBOT
-\nitem1.TEL;waid=56971943258:56971943258\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: usd.valuu_@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/usd.valuu_\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+        displayName: "CHERRYBOT",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: CHERRYBOT
+\nitem1.TEL;waid=51968914403:51968914403\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: yaritza.dzn05@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/yaritza.dzn05\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
     await conn.sendMessage(m.chat, {
@@ -23,10 +23,10 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         contextInfo: {
             externalAdReply: {
                 showAdAttribution: true,
-                title: 'Hello, I am the official creator of SKYBOT.',
+                title: 'Hello, I am the official creator of CHERRYBOT.',
                 body: dev,
-                thumbnailUrl: 'https://files.catbox.moe/33lohc.jpeg',
-                sourceUrl: 'https://wa.me/56971943258?text=Hola+quiero+adquirir+bot',
+                thumbnailUrl: 'https://files.catbox.moe/dg5c3p.jpeg',
+                sourceUrl: 'https://wa.me/51968914403?text=Hola+quiero+adquirir+bot',
                 mediaType: 1,
                 renderLargerThumbnail: true
             }

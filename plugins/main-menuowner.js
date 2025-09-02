@@ -7,15 +7,15 @@ const handler = async (m, { conn, usedPrefix, text }) => {
 
   try {
     await m.react('👑'); // Reacción al mensaje
-    const imageUrl = 'https://files.catbox.moe/33lohc.jpeg'; // URL de la imagen
+    const imageUrl = 'https://files.catbox.moe/dg5c3p.jpeg'; // URL de la imagen
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0]; // Usuario que ejecuta el comando
 
     const str = `
 🌐 *\`Menú Owner\`*
 ────────────────────────────
-*🌴 Nombre:* SKYBOT
-*☕ Creador:* SKYBOT
-*📞 Número Creador:* +56971943258
+*🌴 Nombre:* CHERRYBOT
+*☕ Creador:* CHERRYBOT
+*📞 Número Creador:* +51968914403
 \`Lista de Comandos\`
 ╰➤ ׁ${xowner} ${usedPrefix}update
 ╰➤ ׁ${xowner} ${usedPrefix}leavegc

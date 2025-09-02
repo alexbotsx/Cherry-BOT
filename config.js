@@ -9,33 +9,33 @@ import moment from 'moment-timezone'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.botNumber = '' //Ejemplo: 56971943258
+global.botNumber = '' //Ejemplo: 51968914403
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.owner = [
-  ['56971943258', 'SKYBOT', true]
+  ['51968914403', 'CHERRYBOT', true]
 ];
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.mods = []
-global.suittag = ['56971943258']
+global.suittag = ['51968914403']
 global.prems = []
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.namebot = 'SKYBOT'
-global.packname = 'SKYBOT'
-global.botname = 'SKYBOT'
-global.wm = 'SKYBOT'
-global.author = 'SKYBOT'
-global.dev = 'SKYBOT'
-global.club = 'SKYBOT'
-global.textbot = 'SKYBOT'
-global.etiqueta = 'SKYBOT'
+global.namebot = 'CHERRYBOT'
+global.packname = 'CHERRYBOT'
+global.botname = 'CHERRYBOT'
+global.wm = 'CHERRYBOT'
+global.author = 'CHERRYBOT'
+global.dev = 'CHERRYBOT'
+global.club = 'CHERRYBOT'
+global.textbot = 'CHERRYBOT'
+global.etiqueta = 'CHERRYBOT'
 global.jadi = 'JadiBots'
-global.sessions = 'SKYBOT'
+global.sessions = 'CHERRYBOT'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
@@ -65,16 +65,16 @@ global.xreg = '🪴'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
-global.github = 'https://github.com/KillzN/SKYBOT'
-global.grupo = 'https://chat.whatsapp.com/DzofS7SygPAJeA2ysYv2zV'
-global.comu = 'https://chat.whatsapp.com/DzofS7SygPAJeA2ysYv2zV'
+global.github = 'https://github.com/KillzN/CHERRYBOT'
+global.grupo = 'https://chat.whatsapp.com/LRIEl3bvpyDJAY1PQD9mQ6'
+global.comu = 'https://chat.whatsapp.com/LRIEl3bvpyDJAY1PQD9mQ6'
 global.channel = 'https://www.whatsapp.com/channel/987898789778asd'
-global.ig = 'https://www.instagram.com/usd.valuu_'
+global.ig = 'https://www.instagram.com/yaritza.dzn05'
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
 
 global.catalogo = fs.readFileSync('./src/catalogo.jpg');
-global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "56971943258-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'SKYBOT', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
+global.estilo = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "51968914403-120363046971143826@g.us" } : {}) }, message: { orderMessage: { itemCount: -999999, status: 1, surface: 1, message: 'CHERRYBOT', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net' } } }
 global.multiplier = 70
 
 //─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─
